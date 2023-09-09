@@ -12,7 +12,7 @@ interface IFilterButtonProps{
     icon: React.ReactNode
 }
 
-const FilterButton = ({ placeholder,  margin, onClick, backgroundColor, border, color, icon } : IFilterButtonProps) =>{
+const FilterButton = ({ placeholder, margin, onClick, backgroundColor, border, color, icon } : IFilterButtonProps) =>{
 
     return(
         <button 

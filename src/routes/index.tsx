@@ -5,7 +5,7 @@ import Home from "../pages/home";
 const RoutesComponent: FC = () =>{
     return (
         <Routes>
-            <Route path="/" element={
+            <Route path="/ToDoChallenge" element={
                 <Home/>
             }/>
         </Routes>
